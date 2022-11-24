@@ -1,0 +1,168 @@
+ *
+
+ /*применить ко всему*/
+     {
+     margin: 0;
+     padding: 0;
+     outline: none;
+ }
+
+ body {
+     background-color: #FFFFFF;
+     ;
+ }
+
+ .header {
+     background-color: rgba(86, 88, 86, 0.133);
+ }
+
+ .container {
+     margin: 0 auto;
+     width: 1146px;
+ }
+
+
+ .nav {
+     display: flex;
+     /*  выстраивает в строчку после того, как выстроили в столбик */
+     justify-content: center;
+     /*  выстраивает по центру*/
+ }
+
+ .header-link {
+     padding: 40px;
+     display: block;
+     /*  выстраивает в столбик */
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Secular One', sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 22px;
+     color: rgb(12, 11, 11);
+     text-decoration: none;
+
+ }
+
+ .color {
+     color: rgb(240, 132, 9);
+ }
+
+ .logo-pic {
+     width: 35px;
+     height: 40px;
+     margin-top: 40px;
+ }
+
+ .logo-text {
+     width: 88px;
+     height: 30px;
+     margin-top: 45px;
+     margin-left: 14px;
+ }
+
+ .header-link:hover {
+     /*эффект наведения*/
+     background: #3A68B8;
+     border-radius: 5px;
+ }
+
+ .main {
+     margin-top: 160px;
+ }
+
+ .flex-box {
+     display: flex;
+     justify-content: space-between;
+     /* распределить контент по ширине*/
+ }
+
+
+ .seo {
+     font-size: 60px;
+     line-height: 70px;
+     width: 522px;
+ }
+
+ .explanation {
+     font-size: 20px;
+     line-height: 23px;
+
+     color: #888888;
+
+     margin-top: 17px;
+     width: 466px;
+     margin-bottom: 52px;
+     /* расстрояние до кнопок (отступ снизу)*/
+ }
+
+ .get {
+     background: #F25822;
+     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+     border-radius: 50px;
+     margin-right: 20px;
+     /* отступ справа*/
+ }
+
+ .button-txt-flex {
+     padding: 15px 30px;
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 27px;
+     font-family: 'Open Sans', sans-serif;
+     color: #AAAAAA;
+     align-items: center;
+     display: flex;
+     padding: 0px 30px;
+
+ }
+
+ .watch {
+     background: #f3f4f5;
+     border-radius: 5px;
+     align-items: center;
+     /* 3 последних пункта, чтобы сделать кнопки одинаковыми*/
+     display: flex;
+
+ }
+
+ .watch-txt {
+     padding: 15px 30px;
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 27px;
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Secular One', sans-serif;
+     color: #FFFFFF;
+     margin-left: 10px;
+ }
+
+ .button-flex {
+     display: flex;
+ }
+
+ .button-txt {
+     padding: 15px 30px;
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 27px;
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Secular One', sans-serif;
+     color: #FFFFFF;
+ }
+
+ .get:hover,
+ .watch:hover {
+     outline: 2px solid #e2e5eb;
+     /*рамка при наведении на кнопку*/
+ }
+
+ .footer {
+     margin-top: 200px;
+ }
+
+ .footer-flex {
+     display: flex;
+     justify-content: space-between;
+     /*раскидает иконки между собой*/
+ }
